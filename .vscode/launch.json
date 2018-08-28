@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "Chrome",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/dev-server.js",
+            "cwd": "${workspaceRoot}",
+            "outFiles": ["${workspaceRoot}/**/*.vue"],
+            "sourceMaps": true
+        }
+    ]
+}

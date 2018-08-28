@@ -1,0 +1,368 @@
+<template>
+<!-- ProcessModification -->
+  <div class="app-container calendar-list-container">
+    <div class="filter-container">
+      <!-- <el-button class="filter-item" style="margin-left: 10px;" @click="handleCreate" type="primary" icon="edit">添加</el-button> -->
+    </div>
+
+
+
+   
+
+
+           <el-table :key='tableKey' :data="list" v-loading.body="listLoading" border fit highlight-current-row style="width: 100%">
+      <el-table-column prop="name" width="317px" align="center" label="工序名称"> </el-table-column>
+     <el-table-column class-name="status-col" label="是否跳过" width="100" align="center">
+            <template scope="scope">
+              <el-switch v-model="scope.row.isUse" :on-value="1" :off-value="0" on-color="#13ce66" off-color="#ff4949" on-text="是" off-text="否" @change="change(scope.row)">
+              </el-switch>
+            </template>
+      </el-table-column>  
+
+        <el-table-column class-name="status-col" label="约束条件" width="100" align="center">
+            <template scope="scope">
+              <el-switch v-model="scope.row.assing" :on-value="1" :off-value="0" on-color="#13ce66" off-color="#ff4949" on-text="是" off-text="否" @change="change(scope.row)">
+              </el-switch>
+            </template>
+      </el-table-column>  
+
+    </el-table>
+
+
+</div>
+</template>
+
+<script>
+  import {
+    page,
+    addObj,
+    getObj,
+    delObj,
+    putObj
+  } from "api/admin/user/device";
+  import {
+    mapGetters
+  } from "vuex";
+  //这里要俺需要引入，我不是一个对象
+  import {
+    isvalidPhone
+  } from 'utils/validate'
+  //定义一个全局的变量，谁用谁知道
+  var validPhone = (rule, value, callback) => {
+    if (!value) {
+      callback(new Error('请输入电话号码'))
+    } else if (!isvalidPhone(value)) {
+      callback(new Error('请输入正确的11位手机号码'))
+    } else {
+      callback()
+    }
+  }
+  export default {
+    name: "user",
+    data() {
+      return {
+        value:0,
+        dialogif:null, 
+        dialogtitleProcess:'修改流水线',
+        
+        options1: [{
+          value: 'A',
+          label: '成衣改版',
+          children: [{
+          value: '11', 
+          label: '下载样板'
+          }, {
+            value: '13',
+            label: '修改样板'
+          }, {
+            value: '15',
+            label: '放码'
+          },  {
+            value: '16',
+            label: '检查尺寸'
+          }, {
+            value: '18',
+            label: '估算用量'
+          }]
+        },{ 
+          value: 'B',
+          label: '团订改版',
+          children: [ { 
+          value: '22',
+          label: '下载样板'
+          }, {
+            value: '23',
+            label: '修改样板'
+          },  {
+            value: '25',
+            label: '放码'
+          }, {
+            value: '26',
+            label: '检查尺寸'
+          }, {
+            value: '27',
+            label: '改驱动规则'
+          }]
+        }]
+        ,
+        selectedOptions3: ['A', '11'],
+
+        options: [{
+          value: 0, 
+          label: '团订'
+        }, {
+          value: 1,
+          label: '成衣'
+        }],
+        form: {
+          UserName: undefined,
+          Phone: undefined,
+          State: 1,
+          Up: undefined,
+          Down: 0,
+          MAC: undefined,
+          Remark: ""
+        },
+        rules: {
+          name: [{
+              required: true,
+              message: "请输入",
+              trigger: "blur"
+            },
+            {
+              min: 3,
+              max: 20,
+              message: "长度在 3 到 20 个字符",
+              trigger: "blur"
+            }
+          ],
+          UserName: [{
+              required: true,
+              message: "请输入用户名",
+              trigger: "blur"
+            },
+            {
+              min: 1,
+              max: 20,
+              message: "长度在 1 到 20 个字符",
+              trigger: "blur"
+            }
+          ],
+          Phone: [{
+              required: true,
+              validator: validPhone,
+              message: "请输入手机号",
+              trigger: "blur"
+            },
+            {
+              min: 11,
+              max: 11,
+              message: "长度在11个字符",
+              trigger: "blur"
+            }
+          ]
+        },
+        list: null,
+        list1: null,
+        total: null,
+        listLoading: true,
+        listQuery: {
+          page: 1,
+          limit: 15,
+          name: undefined
+        },
+        sexOptions: ["男", "女"],
+        dialogFormVisible: false,
+        formPhone: "",
+        dialogStatus: "",
+        userManager_btn_edit: true,
+        userManager_btn_del: true,
+        userManager_btn_add: true,
+        textMap: {
+          update: "编辑",
+          create: "创建"
+        },
+        formLabelWidth: "80px",
+        tableKey: 0
+      };
+    },
+    created() {
+      this.getList();
+      this.userManager_btn_edit = this.elements["userManager:btn_edit"];
+      this.userManager_btn_del = this.elements["userManager:btn_del"];
+      this.userManager_btn_add = this.elements["userManager:btn_add"];
+    },
+    computed: {
+      ...mapGetters(["elements"])
+    },
+    methods: {
+      getList() {
+        this.listLoading = true;
+        // page(this.listQuery).then(response => {
+           getObj("1").then(response => {
+          this.list = response.data.rows;
+          this.total = response.data.total;
+          this.listLoading = false;
+        });
+      },
+      change(row) {
+        console.log(row)
+        putObj(row).then(response => {
+          if (response.status === 200) {
+            this.dialogFormVisible = false;
+            this.$notify({
+              offset:700,
+              title: "成功",
+              message: "更新成功",
+              type: "success",
+              duration: 2000
+            });
+          } else {
+            //失败提示
+            this.$notify({
+              offset:700,
+              message: response.error,
+              type: "warning",
+              duration: 2000
+            });
+          }
+        });
+      },
+      handleFilter() {
+        this.getList();
+      },
+      handleSizeChange(val) {
+        this.listQuery.limit = val;
+        this.getList();
+      },
+      handleCurrentChange(val) {
+        this.listQuery.page = val;
+        this.getList();
+      },
+      handleCreate() {
+        this.resetTemp();
+        this.dialogStatus = "create";
+        this.dialogif = "updatePL";
+        this.dialogFormVisible = true;
+      },
+      handleEdit(index, row) {
+        this.form = this.list[index];
+        this.currentIndex = index;
+          this.dialogStatus = "update";
+         this.dialogif = "updatePL";
+        this.dialogFormVisible = true;
+      
+      },
+
+
+       handleEdit1(index, row) {
+          getObj(row.id).then(response => {
+          this.list1 = response.data.rows;
+          // this.total = response.data.total;
+          // this.listLoading = false;
+        });
+         this.dialogtitleProcess = "修改 " + row.name + " 流水线的工序"
+
+        this.form = this.list[index];
+        this.currentIndex = index;
+        this.dialogFormVisible = true;
+        this.dialogif = "updateProcess";
+      },
+
+
+
+      handleUpdate(row) {
+        getObj(row.id).then(response => {
+          this.form = response.data;
+          this.dialogFormVisible = true;
+          this.dialogStatus = "update";
+        });
+      },
+      handleDelete(row) {
+        this.$confirm("此操作将永久删除, 是否继续?", "提示", {
+          confirmButtonText: "确定",
+          cancelButtonText: "取消",
+          type: "warning"
+        }).then(() => {
+          delObj(row.id).then(() => {
+            this.$notify({
+              offset:700,
+              title: "成功",
+              message: "删除成功",
+              type: "success",
+              duration: 2000
+            });
+            const index = this.list.indexOf(row);
+            this.list.splice(index, 1);
+          });
+        });
+      },
+      create(formName) {
+        const set = this.$refs;
+        set[formName].validate(valid => {
+          if (valid) {
+            addObj(this.form).then(() => {
+              this.dialogFormVisible = false;
+              this.getList();
+              this.$notify({
+                offset:700,
+                title: "成功",
+                message: "创建成功",
+                type: "success",
+                duration: 2000
+              });
+            });
+          } else {
+            return false;
+          }
+        });
+      },
+      cancel(formName) {
+        this.dialogFormVisible = false;
+        // this.$refs[formName].resetFields();
+      },
+      update(formName) {
+        const set = this.$refs;
+        set[formName].validate(valid => {
+          if (valid) {
+            this.dialogFormVisible = false;
+            this.form.password = undefined;
+            putObj(this.form).then(response => {
+              if (response.status === 200) {
+                this.dialogFormVisible = false;
+                this.$notify({
+                  offset:700,
+                  title: "成功",
+                  message: "更新成功",
+                  type: "success",
+                  duration: 2000
+                });
+              } else {
+                //失败提示
+                this.$notify({
+                  offset:700,
+                  message: response.error,
+                  type: "warning",
+                  duration: 2000
+                });
+              }
+            });
+          } else {
+            return false;
+          }
+        });
+      },
+      resetTemp() {
+        this.form = {
+          UserName: undefined,
+          Phone: undefined,
+          State: 1,
+          Up: undefined,
+          Down: 0,
+          MAC: undefined,
+          Remark: undefined
+        };
+      }
+    }
+  };
+</script>

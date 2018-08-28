@@ -1,0 +1,84 @@
+{
+    "status": 200,
+    "data": {
+        "total": 5,
+        "rows": [
+            {
+                "id": 1,
+                "username": "admin",
+                "password": "$2a$12$S/yLlj9kzi5Dgsz97H4rAekxrPlk/10eXp1lUJcAVAx.2M9tOpWie",
+                "name": "Mr.AG",
+                "birthday": "",
+                "mobilePhone": "",
+                "email": "",
+                "sex": "男",
+                "description": "微服务架构师",
+                "updTime": "2017-07-25 14:54:21",
+                "updUser": "1",
+                "updName": "Mr.AG",
+                "updHost": "0:0:0:0:0:0:0:1"
+            },
+            {
+                "id": 2,
+                "username": "test",
+                "password": "$2a$12$zWe6knO6rGp15UVfdWTTxu.Ykt.k3QnD5FPoj6a1cnL63csHY2A1S",
+                "name": "测试账户",
+                "birthday": "",
+                "mobilePhone": "",
+                "email": "",
+                "sex": "男",
+                "description": "",
+                "updTime": "2017-07-15 19:18:07",
+                "updUser": "1",
+                "updName": "管理员",
+                "updHost": "0:0:0:0:0:0:0:1"
+            },
+            {
+                "id": 4,
+                "username": "blog",
+                "password": "$2a$12$S/yLlj9kzi5Dgsz97H4rAekxrPlk/10eXp1lUJcAVAx.2M9tOpWie",
+                "name": "Mr.AG(博主)",
+                "birthday": "",
+                "mobilePhone": "",
+                "email": "",
+                "sex": "男",
+                "description": "12",
+                "updTime": "2017-09-12 23:20:33",
+                "updUser": "1",
+                "updName": "Mr.AG",
+                "updHost": "127.0.0.1"
+            },
+            {
+                "id": 5,
+                "username": "cjf",
+                "password": "$2a$12$hslFt3IQifKWireV5nikmOLAVqb5ws6BV6rj4unvNChbim2VVJ5Qq",
+                "name": "cjf",
+                "sex": "?",
+                "description": "cjf  test",
+                "crtTime": "2017-11-21 15:06:44",
+                "crtUser": "1",
+                "crtName": "Mr.AG",
+                "crtHost": "127.0.0.1",
+                "updTime": "2017-11-21 15:06:44",
+                "updUser": "1",
+                "updName": "Mr.AG",
+                "updHost": "127.0.0.1"
+            },
+            {
+                "id": 6,
+                "username": "aaa",
+                "password": "$2a$12$uGUn.USd1YpBONQ2iig88eIfOMhq8Om7AUxbB7rsY4sqV913PxtV6",
+                "name": "aaa",
+                "sex": "?",
+                "crtTime": "2017-11-23 15:38:56",
+                "crtUser": "1",
+                "crtName": "Mr.AG",
+                "crtHost": "127.0.0.1",
+                "updTime": "2017-11-23 15:38:56",
+                "updUser": "1",
+                "updName": "Mr.AG",
+                "updHost": "127.0.0.1"
+            }
+        ]
+    }
+}

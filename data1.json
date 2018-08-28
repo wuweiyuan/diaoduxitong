@@ -1,0 +1,567 @@
+{
+  "login": {
+    "id": 22,
+    "title": "json-server2",
+    "author": "typicode2"
+  },
+  "personinfo": {
+    "Phone": 138001831000
+  },
+  "staffmanage": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+        "total": 26,
+        "rows": [
+            {
+                "ProcessName": "放码",
+                "login_id": 0,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 15,
+                "power": 0,
+                "phone": "2454",
+                "mail": "wet@163.com",
+                "weixin": "FD121",
+                "computer": "FD",
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1518060569817)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "放码",
+                "login_id": 0,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 15,
+                "power": 0,
+                "phone": "44532",
+                "mail": " ",
+                "weixin": "DFG122",
+                "computer": "FDSF",
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1519794949030)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "放码",
+                "login_id": 0,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 15,
+                "power": 0,
+                "phone": " ",
+                "mail": " ",
+                "weixin": null,
+                "computer": null,
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1521021013970)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "放码",
+                "login_id": 0,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 15,
+                "power": 0,
+                "phone": " ",
+                "mail": " ",
+                "weixin": null,
+                "computer": null,
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1521074083957)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "下载样板",
+                "login_id": 1,
+                "name": "buyi",
+                "password": "111111",
+                "PLID": 9,
+                "code": 11,
+                "power": 1,
+                "phone": "12546875952",
+                "mail": "wet@163.com",
+                "weixin": "1212CV",
+                "computer": "LJH",
+                "mach_id": 14,
+                "state": 0,
+                "last_time": "/Date(1517298037310)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "修改样板",
+                "login_id": 2,
+                "name": " ",
+                "password": "888888",
+                "PLID": 5,
+                "code": 13,
+                "power": 1,
+                "phone": "125454123",
+                "mail": " ",
+                "weixin": "23GD",
+                "computer": "SG",
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1517301422240)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "估算用量",
+                "login_id": 3,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 18,
+                "power": 0,
+                "phone": " ",
+                "mail": " ",
+                "weixin": null,
+                "computer": null,
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1521018041400)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "修改样板",
+                "login_id": 4,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 13,
+                "power": 0,
+                "phone": " ",
+                "mail": " ",
+                "weixin": "GSH2",
+                "computer": "CGF",
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1521013404353)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "下载样板",
+                "login_id": 5,
+                "name": " ",
+                "password": "888888",
+                "PLID": 63,
+                "code": 22,
+                "power": 1,
+                "phone": "125454123",
+                "mail": "wet@163.com",
+                "weixin": "452FGD",
+                "computer": "RTE",
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1517393690847)/",
+                "group": 0,
+                "replace": 0
+            },
+            {
+                "ProcessName": "检查尺寸",
+                "login_id": 6,
+                "name": " ",
+                "password": "888888",
+                "PLID": 0,
+                "code": 26,
+                "power": 0,
+                "phone": " ",
+                "mail": " ",
+                "weixin": "21545",
+                "computer": "VXGF",
+                "mach_id": 0,
+                "state": 0,
+                "last_time": "/Date(1521013428377)/",
+                "group": 0,
+                "replace": 0
+            }
+        ]
+    }
+},
+  "styleDetail": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "style_name": "冬季男装",
+          "model_name": "冬季男装",
+          "brand": "海澜",
+          "create_time": "2018-01-01",
+          "process_name": "下载样板",
+          "image": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1517999002509&di=9e4eddf9ab2d196b26248d6ca1c041c1&imgtype=0&src=http%3A%2F%2Fi1.ymfile.com%2Fuploads%2Fproduct%2F08%2F31%2F0831152519987289_4366_3114_407622.jpg",
+          "doer": "张三"
+        }
+      ]
+    }
+  },
+  "styleDetailProcess": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "process_name": "下载样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "下载样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "下载样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "下载样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "下载样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "下载样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "放码",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        },
+        {
+          "process_name": "修改样板",
+          "doer": "张三",
+          "create_time": "2018-01-01"
+        }
+      ]
+    }
+  },
+  "device": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "login_id": "00001",
+          "name": "成衣改版",
+          "type": "成衣"
+        }
+      ]
+    }
+  },
+  "process": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "code": "00001",
+          "name": "下载样板",
+          "assing": 1,
+          "isUse": 0
+        },
+        {
+          "code": "00002",
+          "name": "修改样板",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "放码",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "检查尺寸",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "估算用量",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "下载样板",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "修改样板",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "放码",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "检查尺寸",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "改驱动规则",
+          "assing": 1,
+          "isUse": 1
+        }
+      ]
+    }
+  },
+  "style": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "style_name": "冬季男装",
+          "model_name": "冬季男装",
+          "brand": "海澜",
+          "create_time": "2018-01-01",
+          "state": "正常",
+          "class": "冬季男装"
+        }
+      ]
+    }
+  },
+  "orderSearch": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "orderNo": "N-20180101A",
+          "model_name": "冬季男装",
+          "brand": "海澜",
+          "yield": "1000000",
+          "bed_qty": "10",
+          "create_time": "2018-01-01",
+          "state": "正常"
+        }
+      ]
+    }
+  },
+  "orderDetail": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "MaterialCode": "N-20180101A",
+          "bed_name": "hailan",
+          "length": "100",
+          "layer": "10",
+          "FeedRate": "80%"
+        }
+      ]
+    }
+  },
+  "model": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "model1": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "PastYearStatistics": {
+    "status": 200,
+    "data": {
+      "total": 26,
+      "legend": [
+        "样板数",
+        "生产单数",
+        "件数",
+        "床数",
+        "铺布总长度",
+        "特体Pod数"
+      ],
+      "series": [
+        {
+          "CompanyName": "样板数",
+          "Data": [
+            17,
+            1,
+            5,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4
+          ]
+        },
+        {
+          "CompanyName": "生产单数",
+          "Data": [
+            12,
+            2,
+            2,
+            1,
+            2,
+            0,
+            13,
+            3,
+            2,
+            4,
+            6,
+            4
+          ]
+        },
+        {
+          "CompanyName": "件数",
+          "Data": [
+            3,
+            11,
+            15,
+            16,
+            3,
+            10,
+            1,
+            5,
+            5,
+            2,
+            2,
+            6
+          ]
+        },
+        {
+          "CompanyName": "床数",
+          "Data": [
+            9,
+            3,
+            2,
+            2,
+            2,
+            2,
+            6,
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "CompanyName": "铺布总长度",
+          "Data": [
+            2,
+            15,
+            4,
+            6,
+            1,
+            17,
+            12,
+            3,
+            3,
+            6,
+            1
+          ]
+        },
+        {
+          "CompanyName": "特体Pod数",
+          "Data": [
+            8,
+            13,
+            17,
+            8,
+            20,
+            38,
+            42,
+            31,
+            15,
+            9,
+            1,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  "PieceworkStatistics": {
+    "status": 200,
+    "data": {
+      "total": 9,
+      "X": [
+        "张三",
+        "李四",
+        "小明",
+        "彭万里",
+        "高大山",
+        "谢大海",
+        "高大山",
+        "谢大海",
+        "章汉夫"
+      ],
+      "Y": [
+        10,
+        52,
+        200,
+        334,
+        390,
+        330,
+        390,
+        330,
+        220
+      ]
+    }
+  },
+  "model2": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "model3": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "profile": {
+    "role": -5,
+    "res": "2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsIkN1cmVudENvcG1wYW55SWQiOjQwMzN9.QXHnbTlVFhGgidWHETur8faUSZyWaqa01eAsuKxUAno",
+    "isHaveUpload": false
+  }
+}

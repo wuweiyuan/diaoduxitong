@@ -1,0 +1,1517 @@
+{
+  "mockData": {
+    "id": 22,
+    "title": "json-server2",
+    "author": "typicode2"
+  },
+  "login": {
+    "status": 200,
+    "data": {
+      "token": 123
+    }
+  },
+  "personinfo": {
+    "Phone": 138001831000
+  },
+  "staffmanage": {
+    "ProcessName": "估算用量",
+    "login_id": 23,
+    "name": " ",
+    "password": "888888",
+    "PLID": 630,
+    "code": 18,
+    "power": 1,
+    "phone": " ",
+    "mail": " ",
+    "weixin": null,
+    "computer": null,
+    "mach_id": 0,
+    "state": 3,
+    "last_time": "/Date(1522214727200)/",
+    "group": 0,
+    "replace": 0
+  },
+  "device": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "login_id": "00001",
+          "name": "成衣改版",
+          "type": "成衣"
+        }
+      ]
+    }
+  },
+  "process": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "code": "00001",
+          "name": "下载样板",
+          "assing": 1,
+          "isUse": 0
+        },
+        {
+          "code": "00002",
+          "name": "修改样板",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "放码",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "检查尺寸",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "估算用量",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "下载样板",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "修改样板",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "放码",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "检查尺寸",
+          "assing": 1,
+          "isUse": 1
+        },
+        {
+          "code": "00002",
+          "name": "改驱动规则",
+          "assing": 1,
+          "isUse": 1
+        }
+      ]
+    }
+  },
+  "style": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 27,
+      "rows": [
+        {
+          "StyleName": "裙子",
+          "ModelName": "qunzi (1)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443907)/",
+          "State": 1
+        },
+        {
+          "StyleName": "裙子",
+          "ModelName": "qunzi (2)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443907)/",
+          "State": 1
+        },
+        {
+          "StyleName": "裙子",
+          "ModelName": "qunzi (3)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443907)/",
+          "State": 1
+        },
+        {
+          "StyleName": "衬衫",
+          "ModelName": "chensahn (1)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443887)/",
+          "State": 1
+        },
+        {
+          "StyleName": "衬衫",
+          "ModelName": "chensahn (2)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443887)/",
+          "State": 1
+        },
+        {
+          "StyleName": "衬衫",
+          "ModelName": "chensahn (3)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443887)/",
+          "State": 1
+        },
+        {
+          "StyleName": "西装",
+          "ModelName": "xizhuang (1)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443870)/",
+          "State": 1
+        },
+        {
+          "StyleName": "西装",
+          "ModelName": "xizhuang (2)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443870)/",
+          "State": 1
+        },
+        {
+          "StyleName": "西装",
+          "ModelName": "xizhuang (3)",
+          "Brand": "海澜之家",
+          "Type": "男装",
+          "Time": "/Date(1523151443870)/",
+          "State": 1
+        },
+        {
+          "StyleName": "1.prj",
+          "ModelName": "1.prj",
+          "Brand": "艾莱依",
+          "Type": "女装",
+          "Time": "/Date(1522120268780)/",
+          "State": 1
+        },
+        {
+          "StyleName": "2.prj",
+          "ModelName": "2.prj",
+          "Brand": "艾莱依",
+          "Type": "女装",
+          "Time": "/Date(1522120268780)/",
+          "State": 1
+        },
+        {
+          "StyleName": "3.prj",
+          "ModelName": "3.prj",
+          "Brand": "艾莱依",
+          "Type": "女装",
+          "Time": "/Date(1522120268780)/",
+          "State": 1
+        },
+        {
+          "StyleName": "435.prj",
+          "ModelName": "435.prj",
+          "Brand": "艾莱依",
+          "Type": "女装",
+          "Time": "/Date(1522120268780)/",
+          "State": 1
+        },
+        {
+          "StyleName": "5.prj",
+          "ModelName": "5.prj",
+          "Brand": "艾莱依",
+          "Type": "女装",
+          "Time": "/Date(1522120268780)/",
+          "State": 1
+        },
+        {
+          "StyleName": "6.prj",
+          "ModelName": "6.prj",
+          "Brand": "艾莱依",
+          "Type": "女装",
+          "Time": "/Date(1522120268780)/",
+          "State": 1
+        }
+      ]
+    }
+  },
+  "orderSearch": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 4,
+      "rows": [
+        {
+          "Id": 1,
+          "OrderId": "test",
+          "ModelName": "gsf",
+          "ModelId": 3,
+          "ErpName": "test",
+          "Time": "/Date(1514736000000)/",
+          "Yield": 46,
+          "Bed": 232,
+          "State": 1,
+          "BindId": 1
+        },
+        {
+          "Id": 2,
+          "OrderId": "test1",
+          "ModelName": "re",
+          "ModelId": 4,
+          "ErpName": "test1",
+          "Time": "/Date(1517587200000)/",
+          "Yield": 46,
+          "Bed": 232,
+          "State": 1,
+          "BindId": 1
+        },
+        {
+          "Id": 5,
+          "OrderId": "test4",
+          "ModelName": "fdr",
+          "ModelId": 1,
+          "ErpName": "test4",
+          "Time": "/Date(1519833600000)/",
+          "Yield": 46,
+          "Bed": 232,
+          "State": 1,
+          "BindId": 0
+        },
+        {
+          "Id": 6,
+          "OrderId": "test5",
+          "ModelName": "fhh",
+          "ModelId": 2,
+          "ErpName": "test5",
+          "Time": "/Date(1521043200000)/",
+          "Yield": 55,
+          "Bed": 232,
+          "State": 1,
+          "BindId": 0
+        }
+      ]
+    }
+  },
+  "pl": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 14,
+      "rows": [
+        {
+          "id": 5,
+          "name": "流水线1",
+          "type": 1,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 6,
+          "name": "流水线2",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 7,
+          "name": "流水线3",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 8,
+          "name": "测试流水线",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 615,
+          "name": "test0327",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 616,
+          "name": "test0328",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 617,
+          "name": "test0000",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 618,
+          "name": "test003",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 619,
+          "name": "123123",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 626,
+          "name": "213",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 627,
+          "name": "123312",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 628,
+          "name": "123",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 629,
+          "name": "1111",
+          "type": 0,
+          "autocreate": false,
+          "state": true
+        },
+        {
+          "id": 630,
+          "name": "111",
+          "type": 1,
+          "autocreate": false,
+          "state": true
+        }
+      ]
+    }
+  },
+  "styleDetailProcess": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "ProcessName": "放码",
+          "UserName": "admin",
+          "CreateTime": "/Date(1523151443923)/"
+        }
+      ]
+    }
+  },
+  "orderDetail": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "MaterialCode": "N-20180101A",
+          "bed_name": "hailan",
+          "length": "100",
+          "layer": "10",
+          "FeedRate": "80%"
+        }
+      ]
+    }
+  },
+  "model": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "model1": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "PastYearStatistics": {
+    "status": 200,
+    "data": {
+      "total": 4,
+      "legend": [
+        "样板数",
+        "生产单数",
+        "件数",
+        "床数",
+        "铺布总长度",
+        "特定Pod数"
+      ],
+      "series": [
+        {
+          "CompanyName": "样板数",
+          "Data": [
+            3,
+            54,
+            34,
+            344
+          ]
+        },
+        {
+          "CompanyName": "生产单数",
+          "Data": [
+            4,
+            65,
+            55,
+            654
+          ]
+        },
+        {
+          "CompanyName": "件数",
+          "Data": [
+            54,
+            65,
+            7867,
+            32
+          ]
+        },
+        {
+          "CompanyName": "床数",
+          "Data": [
+            3,
+            65,
+            232,
+            63
+          ]
+        },
+        {
+          "CompanyName": "铺布总长度",
+          "Data": [
+            6,
+            54,
+            44,
+            564
+          ]
+        },
+        {
+          "CompanyName": "特定Pod数",
+          "Data": [
+            5,
+            45,
+            35,
+            25
+          ]
+        }
+      ]
+    }
+  },
+  "PastYearStatisticsTable": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "SumModel": 435,
+          "AvgModel": 108,
+          "SumOrder": 778,
+          "AvgOrder": 194,
+          "SumNumber": 8018,
+          "AvgNumber": 8018,
+          "SumBed": 363,
+          "AvgBed": 90,
+          "SumLen": 668,
+          "AvgLen": 167,
+          "SumPod": 110,
+          "AvgPod": 27
+        }
+      ]
+    }
+  },
+  "CurrentYearStatistics": {
+    "status": 200,
+    "data": {
+      "total": 26,
+      "legend": [
+        "样板数",
+        "生产单数",
+        "件数",
+        "床数",
+        "铺布总长度",
+        "特体Pod数"
+      ],
+      "series": [
+        {
+          "CompanyName": "样板数",
+          "Data": [
+            17,
+            1,
+            5,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4
+          ]
+        },
+        {
+          "CompanyName": "生产单数",
+          "Data": [
+            12,
+            2,
+            2,
+            1,
+            2,
+            0,
+            13,
+            3,
+            2,
+            4,
+            6,
+            4
+          ]
+        },
+        {
+          "CompanyName": "件数",
+          "Data": [
+            3,
+            11,
+            15,
+            16,
+            3,
+            10,
+            1,
+            5,
+            5,
+            2,
+            2,
+            6
+          ]
+        },
+        {
+          "CompanyName": "床数",
+          "Data": [
+            9,
+            3,
+            2,
+            2,
+            2,
+            2,
+            6,
+            1,
+            1,
+            2,
+            1,
+            1
+          ]
+        },
+        {
+          "CompanyName": "铺布总长度",
+          "Data": [
+            2,
+            15,
+            4,
+            6,
+            1,
+            17,
+            12,
+            3,
+            3,
+            6,
+            1
+          ]
+        },
+        {
+          "CompanyName": "特体Pod数",
+          "Data": [
+            8,
+            13,
+            17,
+            8,
+            20,
+            38,
+            42,
+            31,
+            15,
+            9,
+            1,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  "CurrentYearTable": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [
+        {
+          "SumModel": 28,
+          "AvgModel": 1,
+          "SumOrder": "10",
+          "AvgOrder": "1",
+          "SumNumber": "363",
+          "AvgNumber": "36",
+          "SumBed": "21",
+          "AvgBed": "1",
+          "SumLen": "349397",
+          "AvgLen": "16637.9523809524",
+          "SumPod": "4",
+          "AvgPod": "1"
+        }
+      ]
+    }
+  },
+  "PieceworkStatistics": {
+    "status": 200,
+    "data": {
+      "total": 9,
+      "X": [
+        "张三",
+        "李四",
+        "小明",
+        "彭万里",
+        "高大山",
+        "谢大海",
+        "高大山",
+        "谢大海",
+        "章汉夫"
+      ],
+      "Y": [
+        10,
+        52,
+        200,
+        334,
+        390,
+        330,
+        390,
+        330,
+        220
+      ]
+    }
+  },
+  "TemplateStatistics": {
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 11,
+      "rows": [
+        {
+          "value": 7,
+          "name": "1.prj"
+        },
+        {
+          "value": 7,
+          "name": "2.prj"
+        },
+        {
+          "value": 7,
+          "name": "3.prj"
+        },
+        {
+          "value": 7,
+          "name": "435.prj"
+        },
+        {
+          "value": 7,
+          "name": "5.prj"
+        },
+        {
+          "value": 7,
+          "name": "6.prj"
+        },
+        {
+          "value": 7,
+          "name": "7.prj"
+        },
+        {
+          "value": 7,
+          "name": "8.prj"
+        },
+        {
+          "value": 7,
+          "name": "9.prj"
+        },
+        {
+          "value": 7,
+          "name": "chensahn (1)"
+        },
+        {
+          "value": 3,
+          "name": "其他"
+        }
+      ]
+    }
+  },
+  "model2": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "model3": {
+    "role": -5,
+    "isHaveUpload": false
+  },
+  "profile": {
+    "role": -5,
+    "res": "2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsIkN1cmVudENvcG1wYW55SWQiOjQwMzN9.QXHnbTlVFhGgidWHETur8faUSZyWaqa01eAsuKxUAno",
+    "isHaveUpload": false
+  },
+  "menu": [
+    {
+      "id": 13,
+      "parentId": -1,
+      "children": [
+        {
+          "id": 1,
+          "parentId": 5,
+          "children": [],
+          "icon": "fa-user",
+          "title": "员工管理",
+          "href": "/admin/user",
+          "spread": false,
+          "path": "/baseManager/EmployeeManagement",
+          "code": "EmployeeManagement",
+          "icon1": "el-icon-arrow-down"
+        }
+      ],
+      "icon": "setting",
+      "title": "信息管理",
+      "href": "/base",
+      "spread": false,
+      "path": "/baseManager",
+      "code": "baseManager",
+      "icon1": "el-icon-arrow-down"
+    },
+    {
+      "title": "文件交互",
+      "href": "/admin",
+      "spread": false,
+      "path": "/adminSys/baseManager",
+      "code": "baseManager",
+      "icon": "category",
+      "children": [
+        {
+          "id": 27,
+          "parentId": 5,
+          "children": [],
+          "icon": "gerenzhongxin",
+          "title": "数据导入",
+          "href": "/admin/FileLog",
+          "spread": false,
+          "path": "/adminSys/baseManager/DataImport",
+          "code": "DataImport",
+          "icon1": "el-icon-arrow-down"
+        }
+      ]
+    },
+    {
+      "icon": "group_fill",
+      "title": "设备管理",
+      "href": "/base",
+      "spread": false,
+      "path": "/baseManager",
+      "code": "baseManager",
+      "children": [
+        {
+          "id": 7,
+          "parentId": 5,
+          "children": [],
+          "icon": "account",
+          "title": "流水线管理",
+          "href": "/admin/group",
+          "spread": false,
+          "path": "/adminSys/baseManager/PipelineManagement",
+          "code": "PipelineManagement"
+        }
+      ]
+    },
+    {
+      "icon": "group_fill",
+      "title": "设备管理",
+      "href": "/base",
+      "spread": false,
+      "path": "/baseManager",
+      "code": "baseManager",
+      "children": [
+        {
+          "id": 8,
+          "parentId": 5,
+          "children": [],
+          "icon": "group_fill",
+          "title": "款式查询",
+          "href": "/admin/group",
+          "spread": false,
+          "path": "/adminSys/baseManager/StyleIquiry",
+          "code": "StyleIquiry"
+        }
+      ]
+    },
+    {
+      "icon": "group_fill",
+      "title": "设备管理",
+      "href": "/base",
+      "spread": false,
+      "path": "/baseManager",
+      "code": "baseManager",
+      "children": [
+        {
+          "id": 9,
+          "parentId": 5,
+          "children": [],
+          "icon": "group_fill",
+          "title": "生产单查询",
+          "href": "/admin/orderSearch",
+          "spread": false,
+          "path": "/adminSys/baseManager/orderSearch",
+          "code": "orderSearch"
+        }
+      ]
+    },
+    {
+      "icon": "form",
+      "title": "统计",
+      "href": "/admin",
+      "spread": false,
+      "path": "/adminSys/charts",
+      "code": "baseManager",
+      "children": [
+        {
+          "id": 6,
+          "parentId": 5,
+          "children": [],
+          "icon": "category",
+          "title": "往年统计",
+          "href": "/admin/charts",
+          "spread": false,
+          "path": "/adminSys/baseManager/PastYearStatistics",
+          "code": "PastYearStatistics"
+        },
+        {
+          "id": 8,
+          "parentId": 5,
+          "children": [],
+          "icon": "viewlist",
+          "title": "当年统计",
+          "href": "/admin/group",
+          "spread": false,
+          "path": "/adminSys/baseManager/CurrentYearStatistics",
+          "code": "CurrentYearStatistics"
+        },
+        {
+          "id": 7,
+          "parentId": 5,
+          "children": [],
+          "icon": "viewlist",
+          "title": "计件统计",
+          "href": "/admin/group",
+          "spread": false,
+          "path": "/adminSys/baseManager/downloadlog",
+          "code": "PieceworkStatistics"
+        },
+        {
+          "id": 7,
+          "parentId": 5,
+          "children": [],
+          "icon": "viewlist",
+          "title": "样板统计",
+          "href": "/admin/group",
+          "spread": false,
+          "path": "/adminSys/baseManager/downloadlog",
+          "code": "PieceworkStatistics1"
+        }
+      ]
+    }
+  ],
+  "info": {
+    "id": "6",
+    "username": "aaa",
+    "name": "aaa",
+    "menus": [
+      {
+        "code": "EmployeeManagement",
+        "type": "menu",
+        "uri": "/admin/user",
+        "method": "GET",
+        "name": "访问",
+        "menu": "用户管理"
+      },
+      {
+        "code": "EmployeeManagement1",
+        "type": "menu",
+        "uri": "/admin/user",
+        "method": "GET",
+        "name": "访问",
+        "menu": "个人信息"
+      },
+      {
+        "code": "PieceworkStatistics",
+        "type": "menu",
+        "uri": "/admin/charts",
+        "method": "GET",
+        "name": "访问",
+        "menu": "计件统计"
+      },
+      {
+        "code": "PieceworkStatistics1",
+        "type": "menu",
+        "uri": "/admin/charts",
+        "method": "GET",
+        "name": "访问",
+        "menu": "样板统计"
+      },
+      {
+        "code": "uploadFile",
+        "type": "menu",
+        "uri": "/admin/upload",
+        "method": "GET",
+        "name": "访问",
+        "menu": "我要上传"
+      },
+      {
+        "code": "PastYearStatistics",
+        "type": "menu",
+        "uri": "/admin/charts",
+        "method": "GET",
+        "name": "访问",
+        "menu": "往年统计"
+      },
+      {
+        "code": "CurrentYearStatistics",
+        "type": "menu",
+        "uri": "/admin/charts",
+        "method": "GET",
+        "name": "访问",
+        "menu": "当年统计"
+      },
+      {
+        "code": "SampleDetails",
+        "type": "menu",
+        "uri": "/admin/SampleDetails",
+        "method": "GET",
+        "name": "访问",
+        "menu": "添加流水线"
+      },
+      {
+        "code": "baseManager",
+        "type": "menu",
+        "uri": "/admin",
+        "method": "GET",
+        "name": "访问",
+        "menu": "基础配置管理"
+      },
+      {
+        "code": "ProcessModification",
+        "type": "menu",
+        "uri": "/admin/menu",
+        "method": "GET",
+        "name": "访问",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "PipelineManagement",
+        "type": "menu",
+        "uri": "/admin/group",
+        "method": "GET",
+        "name": "访问",
+        "menu": "角色权限管理"
+      },
+      {
+        "code": "StyleIquiry",
+        "type": "menu",
+        "uri": "/admin/partner",
+        "method": "GET",
+        "name": "访问",
+        "menu": "款式查询"
+      },
+      {
+        "code": "orderSearch",
+        "type": "menu",
+        "uri": "/admin/orderSearch",
+        "method": "GET",
+        "name": "访问",
+        "menu": "生产单查询"
+      },
+      {
+        "code": "orderDetail",
+        "type": "menu",
+        "uri": "/admin/orderSearch",
+        "method": "GET",
+        "name": "访问",
+        "menu": "生产单详情"
+      },
+      {
+        "code": "ProcessDebuggingInterface",
+        "type": "menu",
+        "uri": "/admin/ProcessDebuggingInterface",
+        "method": "GET",
+        "name": "访问",
+        "menu": "公司上传记录"
+      },
+      {
+        "code": "DataImport",
+        "type": "menu",
+        "uri": "/admin/FileLog",
+        "method": "GET",
+        "name": "访问",
+        "menu": "需要下载"
+      },
+      {
+        "code": "adminSys",
+        "type": "menu",
+        "uri": "/base",
+        "method": "GET",
+        "name": "访问",
+        "menu": "权限管理系统"
+      },
+      {
+        "code": "gateLogManager",
+        "type": "menu",
+        "uri": "/admin/gateLog",
+        "method": "GET",
+        "name": "访问",
+        "menu": "操作日志"
+      },
+      {
+        "code": "gateLogManager",
+        "type": "menu",
+        "uri": "/admin/gateLog",
+        "method": "GET",
+        "name": "访问",
+        "menu": "操作日志"
+      }
+    ],
+    "elements": [
+      {
+        "code": "ProcessModification:element",
+        "type": "uri",
+        "uri": "/admin/element",
+        "method": "GET",
+        "name": "按钮页面",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "EmployeeManagement:view",
+        "type": "uri",
+        "uri": "/admin/user",
+        "method": "GET",
+        "name": "查看",
+        "menu": "用户管理"
+      },
+      {
+        "code": "ProcessModification:element_view",
+        "type": "uri",
+        "uri": "/admin/element",
+        "method": "GET",
+        "name": "查看",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "ProcessModification:view",
+        "type": "uri",
+        "uri": "/admin/menu",
+        "method": "GET",
+        "name": "查看",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "PipelineManagement:view",
+        "type": "uri",
+        "uri": "/admin/group",
+        "method": "GET",
+        "name": "查看",
+        "menu": "角色权限管理"
+      },
+      {
+        "code": "groupTypeManager:view",
+        "type": "uri",
+        "uri": "/admin/groupType",
+        "method": "GET",
+        "name": "查看",
+        "menu": "角色类型管理"
+      },
+      {
+        "code": "gateLogManager:view",
+        "type": "button",
+        "uri": "/admin/gateLog",
+        "method": "GET",
+        "name": "查看",
+        "menu": "操作日志"
+      }
+    ]
+  },
+  "all": [
+    {
+      "id": 1,
+      "code": "EmployeeManagement",
+      "title": "员工管理",
+      "parentId": 5,
+      "href": "/admin/user",
+      "icon": "fa-user",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:06:51",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/user/index')",
+      "path": "/adminSys/baseManager/EmployeeManagement"
+    },
+    {
+      "id": 1,
+      "code": "EmployeeManagement1",
+      "title": "个人信息",
+      "parentId": 5,
+      "href": "/admin/user",
+      "icon": "fa-user",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:06:51",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/user/index')",
+      "path": "/adminSys/baseManager/EmployeeManagement"
+    },
+    {
+      "id": 2,
+      "code": "SampleDetails",
+      "title": "样板详情",
+      "parentId": 5,
+      "href": "/admin/SampleDetails",
+      "icon": "fa-user",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:06:51",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/SampleDetails/index')",
+      "path": "/adminSys/baseManager/SampleDetails"
+    },
+    {
+      "id": 5,
+      "code": "baseManager",
+      "title": "",
+      "parentId": 13,
+      "href": "/admin",
+      "icon": "setting",
+      "type": "dirt",
+      "description": "",
+      "updTime": "2017-09-05 21:46:11",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "Layout",
+      "path": "/adminSys/baseManager"
+    },
+    {
+      "id": 6,
+      "code": "ProcessModification",
+      "title": "工序修改",
+      "parentId": 5,
+      "href": "/admin/menu",
+      "icon": "category",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:10:25",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/menu/index')",
+      "path": "/adminSys/baseManager/ProcessModification"
+    },
+    {
+      "id": 7,
+      "code": "PipelineManagement",
+      "title": "流水线管理",
+      "parentId": 5,
+      "href": "/admin/group",
+      "icon": "group_fill",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:11:34",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "import('admin/group/index')",
+      "path": "/adminSys/baseManager/PipelineManagement"
+    },
+    {
+      "id": 8,
+      "code": "StyleIquiry",
+      "title": "款式查询",
+      "parentId": 5,
+      "href": "/admin/group",
+      "icon": "group_fill",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:11:34",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "import('admin/partner/index')",
+      "path": "/adminSys/baseManager/StyleIquiry"
+    },
+    {
+      "id": 9,
+      "code": "orderSearch",
+      "title": "生产单查询",
+      "parentId": 5,
+      "href": "/admin/orderSearch",
+      "icon": "group_fill",
+      "type": "menu",
+      "attr1": "import('admin/orderSearch/index')",
+      "path": "/adminSys/baseManager/orderSearch"
+    },
+    {
+      "id": 9,
+      "code": "orderDetail",
+      "title": "生产单详情",
+      "parentId": 5,
+      "href": "/admin/orderSearch",
+      "icon": "group_fill",
+      "type": "menu",
+      "attr1": "import('admin/orderSearch/orderDetail')",
+      "path": "/adminSys/baseManager/orderSearch"
+    },
+    {
+      "id": 8,
+      "code": "groupTypeManager",
+      "title": "角色类型管理",
+      "parentId": 5,
+      "href": "/admin/groupType",
+      "icon": "fa-users",
+      "type": "menu",
+      "description": "",
+      "updTime": "2017-09-05 21:12:28",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/groupType/index')",
+      "path": "/adminSys/baseManager/groupTypeManager"
+    },
+    {
+      "id": 13,
+      "code": "adminSys",
+      "title": "权限管理系统",
+      "parentId": -1,
+      "href": "/base",
+      "icon": "setting",
+      "type": "dirt",
+      "description": "",
+      "updTime": "2017-09-28 12:09:22",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "Layout",
+      "path": "/adminSys"
+    },
+    {
+      "id": 21,
+      "code": "dictManager",
+      "title": "数据字典",
+      "parentId": 5,
+      "href": "",
+      "icon": "fa fa-book",
+      "description": "",
+      "path": "/adminSys/baseManager/dictManager"
+    },
+    {
+      "id": 27,
+      "code": "ProcessDebuggingInterface",
+      "title": "流程调试界面",
+      "parentId": 5,
+      "href": "/admin/ProcessDebuggingInterface",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/ProcessDebuggingInterface/index')",
+      "path": "/adminSys/baseManager/ProcessDebuggingInterface"
+    },
+    {
+      "id": 28,
+      "code": "gateLogManager",
+      "title": "我的上传记录",
+      "parentId": 5,
+      "href": "/admin/gateLog",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/gateLog/index')",
+      "path": "/adminSys/baseManager/gateLogManager"
+    },
+    {
+      "id": 29,
+      "code": "DataImport",
+      "title": "数据导入",
+      "parentId": 5,
+      "href": "/admin/FileLog",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/FileLog/index')",
+      "path": "/adminSys/baseManager/DataImport"
+    },
+    {
+      "id": 29,
+      "code": "DataImport1",
+      "title": "test",
+      "parentId": 5,
+      "href": "/admin/FileLog",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/FileLog/needLoad1')",
+      "path": "/adminSys/baseManager/DataImport1"
+    },
+    {
+      "id": 30,
+      "code": "PastYearStatistics",
+      "title": "往年统计",
+      "parentId": 5,
+      "href": "/admin/charts",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/charts/line')",
+      "path": "/adminSys/charts/line"
+    },
+    {
+      "id": 30,
+      "code": "CurrentYearStatistics",
+      "title": "当年统计",
+      "parentId": 5,
+      "href": "/admin/charts",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/charts/CurrentYearStatistics')",
+      "path": "/adminSys/charts/CurrentYearStatistics"
+    },
+    {
+      "id": 32,
+      "code": "uploadFile",
+      "title": "我要上传",
+      "parentId": 5,
+      "href": "/admin/upload",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/upload/uploadFile')",
+      "path": "/adminSys/upload/uploadFile"
+    },
+    {
+      "id": 31,
+      "code": "PieceworkStatistics",
+      "title": "计件统计",
+      "parentId": 5,
+      "href": "/admin/charts",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/charts/mixChart')",
+      "path": "/adminSys/baseManager/PieceworkStatistics"
+    },
+    {
+      "id": 31,
+      "code": "PieceworkStatistics1",
+      "title": "样板统计",
+      "parentId": 5,
+      "href": "/admin/charts",
+      "icon": "viewlist",
+      "type": "menu",
+      "description": "",
+      "crtTime": "2017-07-01 00:00:00",
+      "crtUser": "1",
+      "crtName": "admin",
+      "crtHost": "0:0:0:0:0:0:0:1",
+      "updTime": "2017-09-05 22:32:55",
+      "updUser": "1",
+      "updName": "Mr.AG",
+      "updHost": "127.0.0.1",
+      "attr1": "_import('admin/charts/mixChart')",
+      "path": "/adminSys/baseManager/PieceworkStatistics1"
+    }
+  ]
+}

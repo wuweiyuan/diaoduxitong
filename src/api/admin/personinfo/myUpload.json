@@ -1,0 +1,26 @@
+{
+  "status": 200,
+  "data": {
+    "total": 1,
+    "rows": {
+      "QCode": "https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQGJ8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAydUt0bTFoOHJiUFQxYVJ1QWhxMUEAAgSJnSRaAwQsAQAA",
+      "Id": 373,
+      "CompanyId": 4125,
+      "UserName": "陈艺",
+      "UserPwd": "1111",
+      "State": 1,
+      "Role": 0,
+      "Permission": "01",
+      "Tag": 0,
+      "Time": "\/Date(1501694949527)\/",
+      "MAC": "",
+      "Phone": "18824641571",
+      "Remark": "",
+      "FWH": "",
+      "ReadSM": 1,
+      "ReadID": 0,
+      "Up": 1,
+      "Down": 0
+    }
+  }
+}

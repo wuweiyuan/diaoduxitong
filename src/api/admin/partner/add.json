@@ -1,0 +1,62 @@
+{
+    "status": 200,
+    "data": {
+        "total": 9,
+        "rows": [
+            {
+                "Id": 40,
+                "Remark": "(办房主管)",
+                "UserName": "张红沛",
+                "IsChecked": 1
+            },
+            {
+                "Id": 41,
+                "Remark": "(纸样)",
+                "UserName": "00e0b10dcc46",
+                "IsChecked": 1
+            },
+            {
+                "Id": 42,
+                "Remark": "(纸样)",
+                "UserName": "00ea011ecd8f",
+                "IsChecked": 1
+            },
+            {
+                "Id": 43,
+                "Remark": "(纸样)",
+                "UserName": "00ea01298f54",
+                "IsChecked": 1
+            },
+            {
+                "Id": 44,
+                "Remark": "(纸样)",
+                "UserName": "00e0b6022417",
+                "IsChecked": 1
+            },
+            {
+                "Id": 45,
+                "Remark": "(放码)",
+                "UserName": "放码",
+                "IsChecked": 1
+            },
+            {
+                "Id": 46,
+                "Remark": "(切割专用)",
+                "UserName": "切割专用",
+                "IsChecked": 1
+            },
+            {
+                "Id": 47,
+                "Remark": "(唛架)",
+                "UserName": "唛架",
+                "IsChecked": 1
+            },
+            {
+                "Id": 48,
+                "Remark": "(纸样)",
+                "UserName": "00e066222992",
+                "IsChecked": 1
+            }
+        ]
+    }
+}

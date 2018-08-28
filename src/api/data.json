@@ -1,0 +1,31 @@
+{
+  "login": [{
+    "id": 1,
+    "title": "json-server",
+    "author": "typicode"
+  }],
+  "staffmanage": [{
+    "status": 200,
+    "tip": "成功",
+    "data": {
+      "total": 1,
+      "rows": [{
+        "login_id": "00001",
+        "name": "chenyi",
+        "phone": "1380000138000",
+        "LastTime": 0,
+        "Compute": "hailan-pc",
+        "type": "放码",
+        "MachID": "001",
+        "State": "正常"
+
+      }]
+    }
+  }],
+  "profile": {
+    "role": -5,
+    "res": "2",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjEsIkN1cmVudENvcG1wYW55SWQiOjQwMzN9.QXHnbTlVFhGgidWHETur8faUSZyWaqa01eAsuKxUAno",
+    "isHaveUpload": false
+  }
+}

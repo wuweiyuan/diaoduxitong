@@ -1,0 +1,127 @@
+{
+  "menu": {
+    "id": "6",
+    "username": "aaa",
+    "name": "aaa",
+    "menus": [
+      {
+        "code": "userManager",
+        "type": "menu",
+        "uri": "/admin/user",
+        "method": "GET",
+        "name": "访问",
+        "menu": "用户管理"
+      },
+      {
+        "code": "baseManager",
+        "type": "menu",
+        "uri": "/admin",
+        "method": "GET",
+        "name": "访问",
+        "menu": "基础配置管理"
+      },
+      {
+        "code": "menuManager",
+        "type": "menu",
+        "uri": "/admin/menu",
+        "method": "GET",
+        "name": "访问",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "groupManager",
+        "type": "menu",
+        "uri": "/admin/group",
+        "method": "GET",
+        "name": "访问",
+        "menu": "角色权限管理"
+      },
+      {
+        "code": "adminSys",
+        "type": "menu",
+        "uri": "/base",
+        "method": "GET",
+        "name": "访问",
+        "menu": "权限管理系统"
+      },
+      {
+        "code": "gateLogManager",
+        "type": "menu",
+        "uri": "/admin/gateLog",
+        "method": "GET",
+        "name": "访问",
+        "menu": "操作日志"
+      },
+      {
+        "code": "synthesize",
+        "type": "menu",
+        "uri": "/admin/synthesize",
+        "method": "GET",
+        "name": "访问",
+        "menu": "系统维护"
+      }
+    ],
+    "elements": [
+      {
+        "code": "menuManager:element",
+        "type": "uri",
+        "uri": "/admin/element",
+        "method": "GET",
+        "name": "按钮页面",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "userManager:view",
+        "type": "uri",
+        "uri": "/admin/user",
+        "method": "GET",
+        "name": "查看",
+        "menu": "用户管理"
+      },
+      {
+        "code": "menuManager:element_view",
+        "type": "uri",
+        "uri": "/admin/element",
+        "method": "GET",
+        "name": "查看",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "menuManager:view",
+        "type": "uri",
+        "uri": "/admin/menu",
+        "method": "GET",
+        "name": "查看",
+        "menu": "菜单管理"
+      },
+      {
+        "code": "groupManager:view",
+        "type": "uri",
+        "uri": "/admin/group",
+        "method": "GET",
+        "name": "查看",
+        "menu": "角色权限管理"
+      },
+      {
+        "code": "groupTypeManager:view",
+        "type": "uri",
+        "uri": "/admin/groupType",
+        "method": "GET",
+        "name": "查看",
+        "menu": "角色类型管理"
+      },
+      {
+        "code": "gateLogManager:view",
+        "type": "button",
+        "uri": "/admin/gateLog",
+        "method": "GET",
+        "name": "查看",
+        "menu": "操作日志"
+      }
+    ]
+  },
+
+
+
+  
+}
